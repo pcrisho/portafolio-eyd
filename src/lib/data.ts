@@ -342,7 +342,7 @@ export const careerData: Record<CareerSlug, CareerData> = {
   },
 };
 
-export const valoresCompartidos = [
+export const valoresCompartidos: { titulo: string; iconKey: IconKey; descripcion: string }[] = [
   {
     titulo: "Honestidad e integridad",
     iconKey: "sparkles",
