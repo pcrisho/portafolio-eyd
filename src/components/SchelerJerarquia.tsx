@@ -49,7 +49,7 @@ export default function SchelerJerarquia({ niveles, accentColor }: SchelerJerarq
                     backgroundColor: `${accentColor}${Math.round(opacities[i] * 255)
                       .toString(16)
                       .padStart(2, "0")}`,
-                    color: i === 0 ? "#fff" : "#1f2937",
+                    color: i <= 1 ? "#ffffff" : i === 2 ? "#f1f5f9" : "#1f2937",
                   }}
                 >
                   <div className="flex items-center justify-center gap-2.5">
