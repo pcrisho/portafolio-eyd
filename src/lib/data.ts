@@ -48,7 +48,7 @@ export interface CareerData {
   };
   problematica: string;
   poblacion: { iconKey: IconKey; titulo: string; descripcion: string }[];
-  scheler: { nivel: string; valor: string; descripcion: string; iconKey: IconKey }[];
+  scheler: { nivel: string; valor: string; descripcion: string; iconKey: IconKey; relacion: string }[];
   mapaCritico: {
     negligencias: string[];
     acciones: string[];
@@ -112,24 +112,32 @@ export const careerData: Record<CareerSlug, CareerData> = {
         valor: "Espirituales",
         descripcion: "Autenticidad y verdad en la sostenibilidad",
         iconKey: "sparkles",
+        relacion:
+          "En administración turística, la autenticidad implica rechazar certificaciones verdes falsas y construir modelos de negocio donde la sostenibilidad sea medible, no cosmética. El profesional se pregunta: ¿lo que vendo como «eco» realmente lo es?",
       },
       {
         nivel: "II",
         valor: "Vitales",
         descripcion: "Preservación de ecosistemas y culturas vivas",
         iconKey: "leaf",
+        relacion:
+          "El profesional en turismo protege ecosistemas y culturas como capital vivo, no como recurso explotable. Su deber es asegurar que cada destino exista para las generaciones futuras y que las comunidades locales no sean desplazadas por la industria.",
       },
       {
         nivel: "III",
         valor: "De civilización",
         descripcion: "Gestión responsable y turismo regenerativo",
         iconKey: "compass",
+        relacion:
+          "Implica diseñar políticas de turismo regenerativo con límites de carga en destinos frágiles, modelos de co-gestión con comunidades locales como socias —no como insumos— y transparencia en cada eslabón de la cadena de valor turística.",
       },
       {
         nivel: "IV",
         valor: "Sensoriales",
         descripcion: "Experiencia turística y rentabilidad del negocio",
         iconKey: "credit-card",
+        relacion:
+          "La rentabilidad y la experiencia del turista son metas legítimas, pero están subordinadas a los valores superiores. Un negocio turístico rentable que destruye el destino del que depende no es un buen negocio: es un fracaso ético y económico a largo plazo.",
       },
     ],
     mapaCritico: {
@@ -207,24 +215,32 @@ export const careerData: Record<CareerSlug, CareerData> = {
         valor: "Espirituales",
         descripcion: "Verdad, honestidad narrativa y respeto al receptor",
         iconKey: "sparkles",
+        relacion:
+          "La comunicación ética comienza con la decisión de no mentir, no omitir lo relevante y no explotar vulnerabilidades humanas para vender. La verdad es el fundamento de toda narrativa: sin ella, el mensaje se convierte en manipulación.",
       },
       {
         nivel: "II",
         valor: "Vitales",
         descripcion: "Dignidad de las personas representadas en los mensajes",
         iconKey: "heart-handshake",
+        relacion:
+          "Cada persona representada en un mensaje publicitario merece ser tratada con dignidad. El comunicador debe preguntarse: ¿estoy empoderando o estoy explotando a quien represento? ¿Esta imagen respeta su identidad o la reduce a un estereotipo?",
       },
       {
         nivel: "III",
         valor: "De civilización",
         descripcion: "Comunicación útil, clara y no manipuladora",
         iconKey: "megaphone",
+        relacion:
+          "Diseñar mensajes claros, inclusivos y no manipuladores. La publicidad debe informar y persuadir con honestidad, no distorsionar la realidad ni crear necesidades artificiales. Un buen mensaje no necesita engañar para ser efectivo.",
       },
       {
         nivel: "IV",
         valor: "Sensoriales",
         descripcion: "Impacto creativo, viralidad y éxito comercial",
         iconKey: "wand-sparkles",
+        relacion:
+          "La creatividad y el éxito comercial son metas válidas del comunicador, pero nunca deben justificar la manipulación, la desinformación o la explotación de inseguridades ajenas. La viralidad sin ética es ruido; la creatividad con verdad es transformación.",
       },
     ],
     mapaCritico: {
@@ -301,24 +317,32 @@ export const careerData: Record<CareerSlug, CareerData> = {
         valor: "Espirituales",
         descripcion: "Honestidad en datos y transparencia algorítmica",
         iconKey: "sparkles",
+        relacion:
+          "La transparencia algorítmica es el equivalente digital de decir la verdad. El ingeniero debe diseñar sistemas donde el usuario entienda qué datos se recolectan, por qué y para qué. Un algoritmo opaco es una mentira automatizada.",
       },
       {
         nivel: "II",
         valor: "Vitales",
         descripcion: "Responsabilidad social y sostenibilidad ambiental digital",
         iconKey: "leaf",
+        relacion:
+          "Cada línea de código tiene consecuencias humanas. El ingeniero asume la responsabilidad de lo que construye, especialmente cuando afecta a poblaciones vulnerables sin alfabetización digital. La tecnología no es neutral: amplifica las decisiones de quien la diseña.",
       },
       {
         nivel: "III",
         valor: "De civilización",
         descripcion: "Inclusión, equidad y accesibilidad digital",
         iconKey: "globe",
+        relacion:
+          "Diseñar para todas las personas: interfaces accesibles para adultos mayores, términos comprensibles para quienes no hablan código, servicios digitales que no excluyan a comunidades rurales. La inclusión no es un feature opcional, es un requisito ético.",
       },
       {
         nivel: "IV",
         valor: "Sensoriales",
         descripcion: "Experiencia de usuario y rentabilidad",
         iconKey: "credit-card",
+        relacion:
+          "La experiencia de usuario y la rentabilidad del negocio son importantes, pero están subordinadas a la privacidad, la equidad y la transparencia. No se puede optimizar la tasa de conversión a costa del consentimiento informado del usuario.",
       },
     ],
     mapaCritico: {

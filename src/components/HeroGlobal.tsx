@@ -27,7 +27,7 @@ export default function HeroGlobal() {
         >
           <div className="inline-flex items-center gap-2 rounded-full border border-gray-200 bg-white/80 px-4 py-2 text-[10px] font-semibold tracking-[0.3em] uppercase text-gray-500 mb-6 shadow-sm backdrop-blur-sm">
             <BookOpenText className="h-3.5 w-3.5" strokeWidth={1.8} />
-            Curso: Ética Profesional · EC1 Semana 5
+            Curso: Ética y Deontología · EC1 Semana 5
           </div>
 
           <h1 className="font-display text-4xl md:text-6xl lg:text-7xl font-bold leading-tight tracking-tight text-gray-900 text-balance mb-4">
