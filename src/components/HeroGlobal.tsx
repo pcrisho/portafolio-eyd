@@ -1,6 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
+import { BookOpenText, ChevronDown } from "lucide-react";
 import Navbar from "./Navbar";
 
 export default function HeroGlobal() {
@@ -24,9 +25,10 @@ export default function HeroGlobal() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, ease: "easeOut" }}
         >
-          <p className="text-xs font-semibold tracking-[0.35em] uppercase text-gray-400 mb-6">
+          <div className="inline-flex items-center gap-2 rounded-full border border-gray-200 bg-white/80 px-4 py-2 text-[10px] font-semibold tracking-[0.3em] uppercase text-gray-500 mb-6 shadow-sm backdrop-blur-sm">
+            <BookOpenText className="h-3.5 w-3.5" strokeWidth={1.8} />
             Curso: Ética Profesional · EC1 Semana 5
-          </p>
+          </div>
 
           <h1 className="font-display text-4xl md:text-6xl lg:text-7xl font-bold leading-tight tracking-tight text-gray-900 text-balance mb-4">
             Manifiesto de
@@ -74,21 +76,7 @@ export default function HeroGlobal() {
           <span className="text-[10px] tracking-[0.3em] uppercase text-gray-300">
             Explorar manifiesto
           </span>
-          <svg
-            width="16"
-            height="16"
-            viewBox="0 0 16 16"
-            fill="none"
-            className="text-gray-300"
-          >
-            <path
-              d="M8 3v8M4 9l4 4 4-4"
-              stroke="currentColor"
-              strokeWidth="1.5"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-            />
-          </svg>
+          <ChevronDown className="h-4 w-4 text-gray-300" strokeWidth={1.8} />
         </motion.div>
       </div>
     </section>

@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
+import { Menu, X } from "lucide-react";
 
 const links = [
   { href: "#hero", label: "Manifiesto" },
@@ -58,21 +59,11 @@ export default function Navbar() {
           onClick={() => setMobileOpen(!mobileOpen)}
           aria-label="Menú"
         >
-          <span
-            className={`block w-5 h-px bg-gray-700 transition-transform ${
-              mobileOpen ? "rotate-45 translate-y-[3px]" : ""
-            }`}
-          />
-          <span
-            className={`block w-5 h-px bg-gray-700 transition-opacity ${
-              mobileOpen ? "opacity-0" : ""
-            }`}
-          />
-          <span
-            className={`block w-5 h-px bg-gray-700 transition-transform ${
-              mobileOpen ? "-rotate-45 -translate-y-[3px]" : ""
-            }`}
-          />
+          {mobileOpen ? (
+            <X className="h-5 w-5 text-gray-700" strokeWidth={1.8} />
+          ) : (
+            <Menu className="h-5 w-5 text-gray-700" strokeWidth={1.8} />
+          )}
         </button>
       </div>
 
