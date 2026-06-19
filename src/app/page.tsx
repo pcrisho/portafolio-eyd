@@ -3,6 +3,7 @@ import HeroGlobal from "@/components/HeroGlobal";
 import CarreraSection from "@/components/CarreraSection";
 import ValoresCompartidos from "@/components/ValoresCompartidos";
 import ReferencesAPA from "@/components/ReferencesAPA";
+import VideoCanvas from "@/components/VideoCanvas";
 import Footer from "@/components/Footer";
 
 export default function Home() {
@@ -14,6 +15,7 @@ export default function Home() {
       <CarreraSection data={careerData.ingenieria} />
       <ValoresCompartidos />
       <ReferencesAPA />
+      <VideoCanvas />
       <Footer />
     </>
   );
