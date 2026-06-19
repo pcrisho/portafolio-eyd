@@ -19,11 +19,24 @@ export default function HeroGlobal() {
 
       <Navbar />
 
-      <div className="relative z-10 text-center px-6 max-w-3xl mx-auto">
+      <div className="relative z-10 text-center px-6 max-w-4xl mx-auto">
+        <motion.div
+          initial={{ opacity: 0, scale: 0.96 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{ duration: 0.9, ease: "easeOut" }}
+          className="mb-10"
+        >
+          <img
+            src="/Untitled.jpg"
+            alt="Manifiesto de Identidad Ética"
+            className="mx-auto w-full max-w-2xl rounded-2xl shadow-md border border-gray-100"
+          />
+        </motion.div>
+
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8, ease: "easeOut" }}
+          transition={{ duration: 0.8, ease: "easeOut", delay: 0.2 }}
         >
           <div className="inline-flex items-center gap-2 rounded-full border border-gray-200 bg-white/80 px-4 py-2 text-[10px] font-semibold tracking-[0.3em] uppercase text-gray-500 mb-6 shadow-sm backdrop-blur-sm">
             <BookOpenText className="h-3.5 w-3.5" strokeWidth={1.8} />
