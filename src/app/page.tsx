@@ -1,5 +1,6 @@
 import { careerData } from "@/lib/data";
 import HeroGlobal from "@/components/HeroGlobal";
+import Capa1 from "@/components/Capa1";
 import CarreraSection from "@/components/CarreraSection";
 import ValoresCompartidos from "@/components/ValoresCompartidos";
 import ReferencesAPA from "@/components/ReferencesAPA";
@@ -10,6 +11,7 @@ export default function Home() {
   return (
     <>
       <HeroGlobal />
+      <Capa1 />
       <CarreraSection data={careerData["admin-turismo"]} />
       <CarreraSection data={careerData.comunicacion} />
       <CarreraSection data={careerData.ingenieria} />

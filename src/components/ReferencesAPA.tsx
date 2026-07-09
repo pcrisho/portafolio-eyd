@@ -14,7 +14,7 @@ export default function ReferencesAPA() {
           <h2 className="font-display text-2xl md:text-3xl font-bold text-gray-900 mb-2">
             Referencias APA
           </h2>
-          <p className="text-xs text-gray-400 mb-10">7.ª edición</p>
+          <p className="text-xs text-gray-400 mb-10">9 referencias · 7.ª edición</p>
         </ScrollReveal>
 
         <ul className="space-y-4">

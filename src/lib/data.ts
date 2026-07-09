@@ -421,6 +421,16 @@ export const referencesAPA = [
   },
   {
     texto:
+      "Levinas, E. (2015). Ética e infinito. Madrid: A. Machado Libros.",
+    doi: null,
+  },
+  {
+    texto:
+      "Noddings, N. (2013). Caring: A relational approach to ethics and moral education (2.ª ed.). University of California Press.",
+    doi: null,
+  },
+  {
+    texto:
       "OMT. (2022). Código ético mundial para el turismo. Organización Mundial del Turismo.",
     doi: null,
   },
